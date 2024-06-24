@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List App</title>
+</head>
+<body>
+    <div class="title">
+        <h1> CONTACT LIST APP </h1>
+        <div class="box">
+            <a href="#">Home</a>
+            <a href="#">contact</a>
+           <a href="#">option</a>
+            <a href="#">Exit</a>
+        </div>
+    </div> 
+    <div class="container">
+        <div class="box1">
+            <h4>Hemanathan </h4>
+            <h5> +91 9087574859</h5>
+            <p>hemanathtech@gmail.com</p>
+            <button onclick="dlt(event)" class="btt"> Delete</button>
+            <button onclick="edit(event)" class="btt"> Edit</button>
+        </div> 
+    </div>
+   <div class="btn">
+       <button class="but" id="pop" onclick="update()">+</button> 
+
+   </div>
+
+   <div class="overlay">
+      
+   </div>
+   <div class="new">
+    <h3>
+        Add Contact
+    </h3>
+    <input id="int1" placeholder="Enter Your Name">
+    <input id="int2"   placeholder="Enter Your Number">
+    <input  id="int3" style="height:50px ;"   placeholder="Enter Your Mail ID">
+    <button onclick="removed()">REMOVE</button>
+    <button  id="addbook" onclick="insert(event)">ADD</button>
+   </div>
+
+   <div class="overlay">
+      
+   </div>
+   <div class="new">
+    <h3>
+        Add Contact
+    </h3>
+    <input id="int1" placeholder="Enter Your Name">
+    <input id="int2"   placeholder="Enter Your Number">
+    <input  id="int3" style="height:50px ;"   placeholder="Enter Your Mail ID">
+    <button onclick="edit(event)"> Edit</button>
+   </div>
+
+
+
+<script src="java.js"></script>
+</body>
+</html>
